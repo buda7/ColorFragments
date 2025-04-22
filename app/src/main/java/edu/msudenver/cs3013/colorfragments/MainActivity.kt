@@ -1,3 +1,6 @@
+//Manoj Budathoki
+//CS-3031-001
+
 package edu.msudenver.cs3013.colorfragments
 
 import android.os.Bundle
