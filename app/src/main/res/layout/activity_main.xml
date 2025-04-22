@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="CHOOSE LOWER FRAGMENT COLOR"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="#DDDDDD" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/upperfragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/lowerfragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" />
+</LinearLayout>
